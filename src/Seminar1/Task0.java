@@ -16,4 +16,6 @@ public class Task0 {
         else return -2;
     }
 
+    // остановился на 27 минуте
+
 }
