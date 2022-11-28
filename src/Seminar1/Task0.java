@@ -1,10 +1,12 @@
 package Seminar1;
 
 public class Task0 {
+    /*
     public static void main(String[] args) {
         int[] arr = null;
         System.out.println(checkArrayLength(arr));
     }
+    */
 
     public static final int minLength = 3;
 
@@ -16,6 +18,6 @@ public class Task0 {
         else return -2;
     }
 
-    // остановился на 27 минуте
+
 
 }

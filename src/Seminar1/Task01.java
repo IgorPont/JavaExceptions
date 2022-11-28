@@ -2,10 +2,12 @@ package Seminar1;
 
 public class Task01 {
 
+    /*
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4};
         System.out.println(checkExistValue(2, array));
     }
+    */
 
     public static int checkExistValue(int value, int[] arr) {
         int minLength = 3;
