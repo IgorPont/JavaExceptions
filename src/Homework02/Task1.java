@@ -4,8 +4,6 @@
  * вместо этого, необходимо повторно запросить у пользователя ввод данных.
  */
 package Homework02;
-
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Task1 {
