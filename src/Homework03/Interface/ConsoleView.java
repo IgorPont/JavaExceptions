@@ -3,9 +3,7 @@ package Homework03.Interface;
 import java.util.Scanner;
 
 public class ConsoleView extends View {
-    // ToDo текущая настройка для моей VS code консоли (при других консолях может не
-    // распознать русские буквы)
-    private Scanner in = new Scanner(System.in, "IBM866");
+    private Scanner in = new Scanner(System.in);
 
     @Override
     public void printOutput(String message) {

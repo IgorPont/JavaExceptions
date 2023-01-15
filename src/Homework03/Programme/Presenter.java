@@ -20,8 +20,9 @@ public class Presenter < V extends View>{
         boolean wokring = true;
         do {
             String input = view.getInput(
-                    "Введите данные через пробел (Фамилию Имя Отчество ДатуРождения НомерТелефона Пол), или Exit для прекращения программы:");
-            if (input.equals("Exit")) {
+                    "Введите данные через пробел (Фамилию Имя Отчество ДатуРождения НомерТелефона Пол), " +
+                            "или Exit для прекращения программы:");
+            if (input.equals("Exit") || input.equals("exit")) {
                 wokring = false;
                 break;
             } else {
@@ -50,8 +51,7 @@ public class Presenter < V extends View>{
         } while (wokring);
     }
 
-    // по заданию проверяем кол-во введённых данных через возврат кода ошибки при
-    // несоответствии
+    // по заданию проверяем кол-во введённых данных через возврат кода ошибки при несоответствии
     private int checkInputDataCount(int inputDataCount) {
         if (inputDataCount < DataChecker.dataCount) {
             return -1;
